@@ -50,8 +50,7 @@ compatibility_date = "2023-10-10"
 # tag = "v1"
 # new_classes = ["MyDurableObject"]
 
-
 [[d1_databases]]
 binding = "DB" # i.e. available in your Worker on env.DB
-database_name = "clientele"
-database_id = "f66f83b6-2167-48d0-95fa-17e42f735ac1"
+database_name = "estateCredentials"
+database_id = "c4ec5010-f005-4898-99a8-7c0d731ccf5b"

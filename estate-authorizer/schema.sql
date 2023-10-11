@@ -1,3 +1,3 @@
-DROP TABLE IF EXISTS Customers;
-CREATE TABLE IF NOT EXISTS Customers (CustomerId INTEGER PRIMARY KEY, CompanyName TEXT, ContactName TEXT);
-INSERT INTO Customers (CustomerID, CompanyName, ContactName) VALUES (1, 'Alfreds Futterkiste', 'Maria Anders'), (4, 'Around the Horn', 'Thomas Hardy'), (11, 'Bs Beverages', 'Victoria Ashworth'), (13, 'Bs Beverages', 'Random Name');
+CREATE TABLE IF NOT EXISTS Clientele (Client_ID INTEGER PRIMARY KEY, estateName TEXT, firstName TEXT, lastName TEXT, client_username TEXT, client_password TEXT);
+INSERT INTO Clientele (Client_ID, estateName, firstName, lastName, client_username, client_password)
+VALUES (1, 'admin-estate', 'adminFirstName', 'adminLastName', 'admin', 'admin123'), (2, 'test1-estate', 'test1FirstName', 'test1LastName', 'test1', 'test123'), (3, 'test2-estate', 'test2FirstName', 'test2LastName', 'test2', 'test123');
